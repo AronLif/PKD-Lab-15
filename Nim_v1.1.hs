@@ -103,6 +103,8 @@ main = do
   gameState <- genGameState 
   play gameState score
 
+retry str (a,b) 
+
 {- play gs
    Play the game
    Pre: gs is valid and not the victory state
